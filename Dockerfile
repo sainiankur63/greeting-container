@@ -3,7 +3,7 @@ FROM python:3.12-slim-bookworm
 
 LABEL org.opencontainers.image.title="greeting-container" \
       org.opencontainers.image.description="DWP DevOps interview sample app" \
-      org.opencontainers.image.source="https://github.com/<your-github-username>/greeting-container"
+      org.opencontainers.image.source="https://github.com/sainiankur63/greeting-container"
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
